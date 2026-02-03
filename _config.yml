@@ -296,6 +296,13 @@ compress_html:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      nav: main
+
   # _posts
   - scope:
       path: ""
@@ -308,11 +315,3 @@ defaults:
       share: true
       related: true
 
-
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-      nav: main
