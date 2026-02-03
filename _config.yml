@@ -14,15 +14,11 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-navigation:
-  - title: About
-    url: /about/
-  - title: Publications
-    url: /publications/
-  - title: CV
-    url: /cv/
-  - title: Contact
-    url: /contact/
+header_pages:
+  - about.md
+  - publications.md
+  - cv.md
+  - contact.md
 
 # Site Settings
 locale                   : "en-GB"
