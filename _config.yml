@@ -14,6 +14,16 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+navigation:
+  - title: About
+    url: /about/
+  - title: Publications
+    url: /publications/
+  - title: CV
+    url: /cv/
+  - title: Contact
+    url: /contact/
+
 # Site Settings
 locale                   : "en-GB"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
